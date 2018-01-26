@@ -1,0 +1,42 @@
+<scene>
+	<door count="2">
+		<door1>
+			<name>image//map//doorl.png</name>
+			<xPos>0</xPos>
+			<yPos>400</yPos>
+			<rolePosX>30</rolePosX>
+			<rolePosY>400</rolePosY>
+			<doorInfo>data//hedunmaer.xml</doorInfo>
+		</door1>
+		<door2>
+			<name>xxx</name>
+			<xPos>600</xPos>
+			<yPos>400</yPos>
+			<doorInfo>dungeon.xml</doorInfo>
+		</door2>
+	</door>
+	<map>
+		<name></name>
+	</map>
+
+</scene>
+
+
+<npc count="2">
+		<npc1>	
+			<name>Linus</name>
+			<path>image\\npc\\linus\\</path>
+			<type>png</type>
+			<count>12</count>
+			<xPos>1111.1</xPos>
+			<yPos>300</yPos>
+		</npc1>
+		<npc2>
+			<name>Anise</name>
+			<path>image\\npc\\anise\\</path>
+			<type>png</type>
+			<count>35</count>
+			<xPos>2150</xPos>
+			<yPos>280</yPos>
+		</npc2>
+	</npc>

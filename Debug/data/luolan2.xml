@@ -1,0 +1,53 @@
+<scene>
+	<scene type="dungeon"></scene>
+	<room type="boss"></room>
+	<role count="1">
+		<role>
+			<xPos>360</xPos>
+			<yPos>420</yPos>
+		</role>
+	</role>
+	<door count="2">
+		<door1>
+			<path>image//dungeon//jizhui//doorl.png</path>
+			<close>image\\dungeon\jizhui\\closel.png</close>
+			<xPos>0</xPos>
+			<yPos>170</yPos>
+			<Info>data//luolan.xml</Info>
+			<rolex>600</rolex>
+			<roley>410</roley>
+			<mapx>970</mapx>
+		</door1>	
+		<door2>
+			<path>image\\dungeon\\jizhui\\doorr.png</path>
+			<close>image\\dungeon\\jizhui\\closer.png</close>
+			<xPos>1660</xPos>
+			<yPos>170</yPos>
+			<Info>data//aierwen.xml</Info>
+			<rolex>410</rolex>
+			<roley>310</roley>
+			<mapx>0</mapx>
+		</door2>
+	</door>
+	<map count="1">
+		<map>
+			<name>image\\map\\jizhui.png</name>
+			<proc>image//map//behemoth_far.png</proc>
+			<load>xxx</load>
+			<id>3</id>
+			<xPos>0</xPos>
+			<yPos>0</yPos>
+		</map>
+	</map>
+	<monster count="2"></monster>
+	<animation count="0">
+		<animation1>
+			<path>image//door//</path>
+			<count>10</count>
+			<xPos>1880</xPos>
+			<yPos>300</yPos>
+			<speed>90</speed>
+		</animation>
+	</animation>
+	<monster></monster>
+</scene>

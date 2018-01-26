@@ -1,0 +1,14 @@
+<scene>
+	<door>
+		<name>23113</name>
+		<xPos></xPos>
+		<yPos></yPos>
+		<doorType></doorType>
+		<doorDir>门的方向，在左(下个场景角色的初始位置为右)</doorDir>
+		<doorInfo>下一个场景的xml文档//当前xml文档放在进入下个场景之后的门里</doorInfo>
+	</door>
+	<map>
+		<mapname></mapname>
+		<mapbgname></mapbgname>
+	</map>
+</scene>

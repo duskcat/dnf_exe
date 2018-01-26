@@ -1,0 +1,52 @@
+﻿<scene>
+	<scene type="dungeon">
+	</scene>
+	<role count="1">
+		<role>
+			<xPos>360</xPos>
+			<yPos>420</yPos>
+		</role>
+	</role>
+	<door count="2">
+		<door1>
+			<path>image\\dungeon\\luolan\\doorr.png</path>
+			<close>image\\dungeon\\luolan\\closer.png</close>
+			<xPos>1660</xPos>
+			<yPos>170</yPos>
+			<Info>data//luolan1.xml</Info>
+			<rolex>140</rolex>
+			<roley>410</roley>
+			<mapx>0</mapx>
+		</door1>
+		<door2>
+			<path>image//dungeon//luolan//doorl.png</path>
+			<close>image\\dungeon\\luolan\\closel.png</close>
+			<xPos>0</xPos>
+			<yPos>170</yPos>
+			<Info>data//luolan.xml</Info>
+			<rolex>600</rolex>
+			<roley>410</roley>
+			<mapx>970</mapx>
+		</door2>	
+	</door>
+	<map count="1">
+		<map>
+			<name>image\\dungeon\\luolan\\map.png</name>
+			<proc>image//dungeon//luolan//mapfar.png</proc>
+			<load>xxx</load>
+			<id>1</id>
+			<xPos>0</xPos>
+			<yPos>0</yPos>
+		</map>
+	</map>
+	<animation count="0">
+		<animation1>
+			<path>image//door//</path>
+			<count>10</count>
+			<xPos>1880</xPos>
+			<yPos>300</yPos>
+			<speed>90</speed>
+		</animation>
+	</animation>
+	<monster></monster>
+</scene>

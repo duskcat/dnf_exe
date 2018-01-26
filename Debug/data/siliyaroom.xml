@@ -1,0 +1,66 @@
+<scene>
+	<scene type="town">
+	</scene>
+	<role count="1">
+		<role>
+			<xPos>360</xPos>
+			<yPos>420</yPos>
+		</role>
+	</role>
+
+	<door count="1">
+		<door1>
+			<path>image\\map\\roomdoor.png</path>
+			<xPos>300</xPos>
+			<yPos>390</yPos>
+			<Info>data//aierwen.xml</Info>
+			<rolex>410</rolex>
+			<roley>310</roley>
+			<mapx>1460</mapx>
+		</door1>
+	</door>
+	<map count="1">
+		<map>
+			<name>image\\map\\room2.png</name>
+			<load>xxx</load>
+			<xPos>0</xPos>
+			<yPos>0</yPos>
+		</map>
+	</map>
+	<npc count="1">
+		<npc1>	
+			<name>siliya</name>
+			<path>image\\npc\\siliya\\</path>
+			<type>png</type>
+			<count>19</count>
+			<xPos>365</xPos>
+			<yPos>360</yPos>
+		</npc1>
+	</npc>	
+	<animation count="3">
+		<animation1>
+			<path>image//animation//cangku//</path>
+			<count>11</count>
+			<xPos>150</xPos>
+			<yPos>405</yPos>
+			<speed>200</speed>
+			<scaling>1.0f</scaling>
+		</animation1>
+		<animation2>
+			<path>image//animation//doorxi//</path>
+			<count>8</count>
+			<xPos>-3</xPos>
+			<yPos>445</yPos>
+			<speed>90</speed>
+			<scaling>1.0f</scaling>
+		</animation2>
+		<animation3>
+			<path>image//animation//small//</path>
+			<count>18</count>
+			<xPos>460</xPos>
+			<yPos>200</yPos>
+			<speed>90</speed>
+			<scaling>1.0f</scaling>
+		</animation3>
+	</animation>
+</scene>

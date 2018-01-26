@@ -1,0 +1,47 @@
+<scene>
+	<scene type="choose">
+	</scene>
+	<bg load="image//chooseDungeon//bg0.png">
+		<bg>
+			<path>image//chooseDungeon//bg1.png</path>
+		</bg>
+	</bg>
+	<dg count="4">
+		<dg1>
+			<xPos>450</xPos>
+			<yPos>300</yPos>
+			<width>184</width>
+			<hight>51</hight>
+			<up>image//chooseDungeon//b1.png</up>
+			<over>image//chooseDungeon//bg1_over.png</over>
+			<info>data//luolan1.xml</info>
+		</dg1>
+		<dg2>
+			<xPos>450</xPos>
+			<yPos>100</yPos>
+			<width>172</width>
+			<hight>51</hight>
+			<up>image//chooseDungeon//dg2.png</up>
+			<over>image//chooseDungeon//dg2over.png</over>
+			<info>data//luolan.xml</info>
+		</dg2>
+		<dg3>
+			<xPos>180</xPos>
+			<yPos>100</yPos>
+			<width>110</width>
+			<hight>51</hight>
+			<up>image//chooseDungeon//dg3.png</up>
+			<over>image//chooseDungeon//dg3over.png</over>
+			<info>data//luolan.xml</info>
+		</dg3>
+		<dg4>
+			<xPos>160</xPos>
+			<yPos>300</yPos>
+			<width>100</width>
+			<hight>51</hight>
+			<up>image//chooseDungeon//dg4.png</up>
+			<over>image//chooseDungeon//dg4over.png</over>
+			<info>data//luolan.xml</info>
+		</dg4>
+	</dg>
+</scene>
